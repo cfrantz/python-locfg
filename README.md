@@ -14,9 +14,9 @@ helper functions -- they were just function I needed.
 
 Usage
 =====
-locfg -s server [-l logfile] -f inputfile [-u username -p password]
-Note: Use -u and -p with caution as command line options are
-      visible on Linux.
+	locfg -s server [-l logfile] -f inputfile [-u username -p password]
+	Note: Use -u and -p with caution as command line options are
+	      visible on Linux.
 
 	All options:
 	    -s, --server:     Specify the server name/IP address
