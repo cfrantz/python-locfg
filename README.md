@@ -18,17 +18,17 @@ locfg -s server [-l logfile] -f inputfile [-u username -p password]
 Note: Use -u and -p with caution as command line options are
       visible on Linux.
 
-All options:
-    -s, --server:     Specify the server name/IP address
-    -l, --logfile:    Where to log output.
-    -f, --input:      The input script.
-    -u, --username:   Username.
-    -p, --password:   Password.
-    -i, --iloversion: iLO hardware version (1, 2 3 or 4).
-    -v, --verbose:    Verbose mode.
-    -x, --xmlfix:     Do some basic fixups on the returned XML.
-    -z, --firmware:   Update the iLO firmware on the target server.
-    -m, --m2crypto:   Use the M2Crypto library for SSL connections.
-    -a, --adduser:    Add/update a user (-a username:password).
-    -h, -?, --help:   This text.
+	All options:
+	    -s, --server:     Specify the server name/IP address
+	    -l, --logfile:    Where to log output.
+	    -f, --input:      The input script.
+	    -u, --username:   Username.
+	    -p, --password:   Password.
+	    -i, --iloversion: iLO hardware version (1, 2 3 or 4).
+	    -v, --verbose:    Verbose mode.
+	    -x, --xmlfix:     Do some basic fixups on the returned XML.
+	    -z, --firmware:   Update the iLO firmware on the target server.
+	    -m, --m2crypto:   Use the M2Crypto library for SSL connections.
+	    -a, --adduser:    Add/update a user (-a username:password).
+	    -h, -?, --help:   This text.
 
